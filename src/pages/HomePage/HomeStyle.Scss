@@ -1,0 +1,16 @@
+$Main_BackGround: white;
+.MainC {
+  background-color: $Main_BackGround;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  .WeclomeC {
+    height: 700px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+    text-align: center;
+    .WeclomeText {
+      font-size: 30px;
+    }
+  }
+}
